@@ -1,0 +1,102 @@
+:root {
+    --cor-primaria: #198754;
+    --bg-color-claro: #E3DAC9;
+    --bg-color-medio: #AF8D71;
+    --bg-color-escuro: #36241D;
+
+    --bs-success: var(--cor-primaria);
+    --bs-success-rgb: 25, 135, 84; /* O valor RGB da sua cor primária */
+}
+
+.btn {
+    --bs-btn-bg: #198754;
+    --bs-btn-border-color: #146C43;
+    --bs-btn-hover-bg: #146C43;
+    --bs-btn-hover-border-color: #146C43;
+    --bs-btn-active-bg: #0c5734;
+    
+}
+
+main {
+    background-color: var(--bg-color-escuro);
+    color: #f8f9fa;
+}
+
+body {
+    padding-top: 4.77rem;
+    /* Ajuste para compensar a altura da navbar fixa */
+}
+
+section {
+    scroll-margin-top: 5.5rem;
+    /* Ajuste para o scroll não ficar escondido atrás da navbar fixa */
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar-nav {
+    color: var(--bg-color-claro);
+}
+
+/* Tamanho do Carrossel */
+
+.carousel-item {
+    height: 350px;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-item::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, #1f1f1f);
+    position: absolute;
+}
+
+.card-menu img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-menu {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-menu:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.col-md-8,
+.card-body {
+    background-color: var(--bg-color-medio);
+}
+
+/*  */
+
+.nav-tabs .nav-link {
+    color: var(--bg-color-medio);
+    /* Cor do texto */
+    border-color: var(--bg-color-medio);
+    /* Borda */
+}
+
+.nav-tabs .nav-link.active {
+    background-color: var(--bg-color-claro);
+    /* Fundo quando ativo */
+    border-color: var(--cor-primaria);
+    /* Borda quando ativo */
+}
+
+.nav-tabs .nav-link:hover {
+    color: var(--bg-color-claro);
+    /* Mudar cor do texto ao passar o mouse */
+}
