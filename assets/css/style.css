@@ -8,15 +8,6 @@
     --bs-success-rgb: 25, 135, 84; /* O valor RGB da sua cor primária */
 }
 
-.btn {
-    --bs-btn-bg: #198754;
-    --bs-btn-border-color: #146C43;
-    --bs-btn-hover-bg: #146C43;
-    --bs-btn-hover-border-color: #146C43;
-    --bs-btn-active-bg: #0c5734;
-    
-}
-
 main {
     background-color: var(--bg-color-escuro);
     color: #f8f9fa;
@@ -25,6 +16,10 @@ main {
 body {
     padding-top: 4.77rem;
     /* Ajuste para compensar a altura da navbar fixa */
+}
+
+h1 {
+    font-size: small;
 }
 
 section {
@@ -99,4 +94,19 @@ section {
 .nav-tabs .nav-link:hover {
     color: var(--bg-color-claro);
     /* Mudar cor do texto ao passar o mouse */
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Garante que ele fique sobre outros elementos */
+    opacity: 0; /* Começa invisível */
+    visibility: hidden; /* Começa escondido */
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out; /* Transição suave */
+}
+
+#back-to-top.show {
+    opacity: 1; /* Torna visível */
+    visibility: visible;
 }
