@@ -48,19 +48,77 @@ document.addEventListener('DOMContentLoaded', () => {
      * @param {object} item - O objeto contendo os dados do item (img, alt, title, price).
      * @returns {string} - A string HTML do <div class="col">...</div>
      */
+    // --- MOLDES DE CARD ---
+
+    // MOLDE 1: O original que já tínhamos (para type: 'cafe')
     const createMenuItemCard = (item) => {
         // Usamos Template Literals (ES6) para construir o HTML de forma legível.
         return `
             <div class="col">
-                <div class="card card-menu">
+                <div class="card card-menu h-100">
                     <img src="${item.img}" class="card-img-top" alt="${item.alt}">
                     <div class="card-body">
-                        <h5 class="card-title">${item.title}</h5>
+                        <h5 class="card-title">${item.title} <small class="title2">${item.title2}</small></h5>
+                        <small class="card-description">${item.description}</small><br>
+                        <small class="card-description">${item.description2}</small>
                         <p class="card-text">${item.price}</p>
                     </div>
                 </div>
             </div>
         `;
+    };
+    // MOLDE 2: Novo molde para "Nossos Produtos" (type: 'produto')
+    const createProductCard = (item) => {
+        // Note que este HTML é diferente! Não tem 'price', mas tem 'description'.
+        return `
+            <div class="col">
+                <div class="card card-menu h-100">
+                    <img src="${item.img}" class="card-img-top" alt="${item.alt}">
+                    <div class="card-body">
+                        <h5 class="card-title">${item.title}</h5>
+                        <small class="card-description">${item.description}</small><br>
+                        <small class="card-description">${item.description2}</small><br>
+                        <small class="card-description">${item.description3}</small>
+                        <p class="card-text">${item.price}</p>
+                        <a href="#" class="btn btn-success mt-2">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        `;
+    };
+
+    // MOLDE 3: Novo molde para "Lanches" (type: 'lanche')
+    const createLancheCard = (item) => {
+        // Este é outro layout!
+        return `
+            <div class="col">
+                <div class="card card-menu h-100">
+                    <img src="${item.img}" class="card-img-top" alt="${item.alt}">
+                    <div class="card-body">
+                        <h5 class="card-title">${item.title}</h5>
+                        <small class="card-text">${item.description}</small>
+                        <p class="card-text">${item.price}</p>
+                    </div>
+                </div>
+            </div>
+        `;
+    };
+
+    // --- O ROTEADOR DE CARDS ---
+    // Esta função decide qual molde usar com base no 'item.type'
+    const createCardRouter = (item) => {
+        switch (item.type) {
+            case 'cafe':
+                return createMenuItemCard(item);
+            case 'produto':
+                return createProductCard(item);
+            case 'lanche':
+                return createLancheCard(item);
+            default:
+                // Um fallback, caso o tipo não seja definido
+                console.warn(`Tipo de item não reconhecido: ${item.type}`);
+                return createMenuItemCard(item);
+        }
     };
 
     /**
@@ -79,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // 3. Verifica se o painel e os itens existem.
         if (tabPane && items) {
             // 4. Mapeia (transforma) cada item do array de dados em uma string HTML de card.
-            const cardsHtml = items.map(item => createMenuItemCard(item)).join('');
+            const cardsHtml = items.map(item => createCardRouter(item)).join('');
 
             // 5. Injeta todo o HTML gerado de uma só vez dentro do 'row'.
             // (Isso é muito mais performático do que adicionar um por um)
@@ -94,5 +152,5 @@ document.addEventListener('DOMContentLoaded', () => {
     renderMenuItems('gelados', 'iced-coffee-pane');
     renderMenuItems('especiais', 'special-pane');
     renderMenuItems('nossosProdutos', 'nossos-produtos-pane');
-
+    renderMenuItems('lanches', 'lanches-pane');
 });
