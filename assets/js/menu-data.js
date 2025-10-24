@@ -4,7 +4,7 @@
 const menuItems = {
     expressos: [
         {
-            img: 'assets/imgs/menu/expresso.jpg',
+            img: 'assets/imgs/menu/expressos/backinblack.png',
             alt: 'Café expresso Back in Black.',
             title: 'Back in Black',
             title2: 'Expresso Simples',
@@ -14,7 +14,7 @@ const menuItems = {
             type: 'café'
         },
         {
-            img: 'assets/imgs/menu/expresso.jpg',
+            img: 'assets/imgs/menu/expressos/thunderroast.png',
             alt: 'Café expresso Thunder Roast.',
             title: 'Thunder Roast',
             title2: 'Expresso Duplo',
@@ -24,7 +24,7 @@ const menuItems = {
             type: 'café'
         },
         {
-            img: 'assets/imgs/menu/leite.JPG',
+            img: 'assets/imgs/menu/expressos/onedroprock.png',
             alt: 'Café expresso com um pouco de leite (One Drop Rock).',
             title: 'One Drop Rock',
             title2: 'Pingado',
@@ -34,7 +34,7 @@ const menuItems = {
             type: 'café'
         },
         {
-            img: 'assets/imgs/menu/leite.JPG',
+            img: 'assets/imgs/menu/expressos/rocklattebaby.png',
             alt: 'Café expresso com um leite Rock Latte Baby.',
             title: 'Rock Latte Baby',
             title: 'Café com Leite',
@@ -44,7 +44,7 @@ const menuItems = {
             type: 'café'
         },
         {
-            img: 'assets/imgs/menu/',
+            img: 'assets/imgs/menu/expressos/sundaymorningbrew.png',
             alt: 'Café Coado Sunday Morning Brew.',
             title: 'Café Coado',
             title2: 'Sunday Morning Brew',
@@ -54,7 +54,7 @@ const menuItems = {
             type: 'café'
         },
         {
-            img: 'assets/imgs/menu/',
+            img: 'assets/imgs/menu/expressos/freebirdblend.png',
             alt: 'Café Expresso Freebird Blend.',
             title: 'Freebird Blend',
             title2: 'Café Americano',
@@ -66,7 +66,7 @@ const menuItems = {
     ],
     cappuccinos: [
         {
-            img: 'assets/imgs/menu/capuccino.JPG',
+            img: 'assets/imgs/menu/capuccinos/sweetfoamomine.png',
             alt: "Capuccino Sweet Foam O' Mine.",
             title: "Sweet Foam O' Mine",
             title2: 'Capuccino Clássico',
@@ -76,7 +76,7 @@ const menuItems = {
             type: 'café'
         },
         {
-            img: 'assets/imgs/menu/canela.JPG',
+            img: 'assets/imgs/menu/capuccinos/cocoametal.png',
             alt: 'Capuccino com chocolate Cocoa Metal.',
             title: 'Cocoa Metal',
             title2: 'Capuccino com Chocolate',
@@ -86,7 +86,7 @@ const menuItems = {
             type: 'café'
         },
         {
-            img: 'assets/imgs/menu/canela.JPG',
+            img: 'assets/imgs/menu/capuccinos/latteofages.png',
             alt: 'Capuccino com doce de leite Latte of Ages.',
             title: 'Latte of Ages',
             title2: 'Capuccino com Doce de Leite',
@@ -96,7 +96,7 @@ const menuItems = {
             type: 'café'
         },
         {
-            img: 'assets/imgs/menu/canela.JPG',
+            img: 'assets/imgs/menu/capuccinos/dreamonvanilla.png',
             alt: 'Capuccino com baunilha Dream On Vanilla.',
             title: 'Dream On Vanilla',
             title2: 'Capuccino com Baunilha',
@@ -106,7 +106,7 @@ const menuItems = {
             type: 'café'
         },
         {
-            img: 'assets/imgs/menu/canela.JPG',
+            img: 'assets/imgs/menu/capuccinos/vivalacaffeine.png',
             alt: 'Capuccino italiano Viva la Caffeine.',
             title: 'Viva la Caffeine',
             title2: 'Capuccino Italiano',
@@ -118,7 +118,7 @@ const menuItems = {
     ],
     gelados: [
         {
-            img: 'assets/imgs/menu/gelado.jpg',
+            img: 'assets/imgs/menu/gelados/coldstage.png',
             alt: 'Café gelado Cold Stage.',
             title: 'Cold Stage',
             title2: 'Iced Coffee',
@@ -128,7 +128,7 @@ const menuItems = {
             type: 'café'
         },
         {
-            img: 'assets/imgs/menu/gelado.jpg',
+            img: 'assets/imgs/menu/gelados/darksidemocha.png',
             alt: 'Mocha Gelado Dark Side Mocha.',
             title: 'Dark Side Mocha',
             title2: 'Mocha Gelado',
@@ -138,7 +138,7 @@ const menuItems = {
             type: 'café'
         },
         {
-            img: 'assets/imgs/menu/gelado.jpg',
+            img: 'assets/imgs/menu/gelados/underpressure.png',
             alt: 'Latte Gelado Under Pressure.',
             title: 'Under Pressure',
             title2: 'Latte Gelado',
@@ -148,7 +148,7 @@ const menuItems = {
             type: 'café'
         },
         {
-            img: 'assets/imgs/menu/gelado.jpg',
+            img: 'assets/imgs/menu/gelados/icecreamtoheaven.png',
             alt: 'Affogato Iced Cream to Heaven.',
             title: 'Iced Cream to Heaven',
             title2: 'Affogato',
@@ -158,7 +158,7 @@ const menuItems = {
             type: 'café'
         },
         {
-            img: 'assets/imgs/menu/gelado.jpg',
+            img: 'assets/imgs/menu/gelados/sweetriffscaramel.png',
             alt: 'Frappuccino de Caramelo Sweet Riffs Caramel.',
             title: 'Sweet Riffs Caramel',
             title2: 'Frappuccino de Caramelo',
@@ -170,7 +170,7 @@ const menuItems = {
     ],
     especiais: [
         {
-            img: 'assets/imgs/menu/especial.JPG',
+            img: 'assets/imgs/menu/especiais/spicenroast.png',
             alt: "Café com Especiarias Spice N' Roast.",
             title: "Spice N' Roast",
             title2: 'Café com Especiarias',
@@ -180,7 +180,7 @@ const menuItems = {
             type: 'café'
         },
         {
-            img: 'assets/imgs/menu/especial.JPG',
+            img: 'assets/imgs/menu/especiais/whiskeyinthemug.png',
             alt: 'Café Irlandês Whiskey in the Mug.',
             title: 'Whiskey in the Mug',
             title2: 'Café Irlandês',
@@ -190,7 +190,7 @@ const menuItems = {
             type: 'café'
         },
         {
-            img: 'assets/imgs/menu/especial.JPG',
+            img: 'assets/imgs/menu/especiais/citrusrevolution.png',
             alt: 'Café com Laranja Citrus Revolution.',
             title: 'Citrus Revolution',
             title2: 'Café com Laranja',
@@ -200,7 +200,7 @@ const menuItems = {
             type: 'café'
         },
         {
-            img: 'assets/imgs/menu/especial.JPG',
+            img: 'assets/imgs/menu/especiais/acousticbrew.png',
             alt: 'Café com Leite de Amêndoas Acoustic Brew.',
             title: 'Acoustic Brew',
             title2: 'Café com Leite de Amêndoas',
@@ -210,7 +210,7 @@ const menuItems = {
             type: 'café'
         },
         {
-            img: 'assets/imgs/menu/especial.JPG',
+            img: 'assets/imgs/menu/especiais/rockyouhazelnut.png',
             alt: 'Café com Nutella Rock You Hazelnut.',
             title: 'Rock You Hazelnut',
             title2: 'Café com Nutella',
@@ -222,7 +222,7 @@ const menuItems = {
     ],
     nossosProdutos: [
         {
-            img: 'assets/imgs/menu/capuccino.JPG',
+            img: 'assets/imgs/menu/nossos-produtos/blacksabbathblend.png',
             alt: 'Café Black Sabbath Blend.',
             title: 'Black Sabbath Blend',
             description: 'Um café intenso e encorpado, feito para quem curte um som pesado logo de manhã.',
@@ -232,7 +232,7 @@ const menuItems = {
             type: 'produto'
         },
         {
-            img: 'assets/imgs/menu/capuccino.JPG',
+            img: 'assets/imgs/menu/nossos-produtos/sweetchildobean.png',
             alt: "Café Sweet Child O' Bean.",
             title: "Sweet Child O' Bean.",
             description: 'Doçura e equilíbrio em um blend que conquista logo no primeiro gole.',
@@ -242,7 +242,7 @@ const menuItems = {
             type: 'produto'
         },
         {
-            img: 'assets/imgs/menu/capuccino.JPG',
+            img: 'assets/imgs/menu/nossos-produtos/highwaytoroast.png',
             alt: 'Café Highway to Roast.',
             title: 'Highway to Roast',
             description: 'Perfeito para manter o ritmo do dia, com aroma marcante e sabor vibrante.',
@@ -252,7 +252,7 @@ const menuItems = {
             type: 'produto'
         },
         {
-            img: 'assets/imgs/menu/capuccino.JPG',
+            img: 'assets/imgs/menu/nossos-produtos/smokeonthecoffee.png',
             alt: 'Café Smoke on the Coffee.',
             title: 'Smoke on the Coffee',
             description: 'Blend artesanal com notas defumadas e corpo marcante, para os amantes do som clássico.',
@@ -262,7 +262,7 @@ const menuItems = {
             type: 'produto'
         },
         {
-            img: 'assets/imgs/menu/capuccino.JPG',
+            img: 'assets/imgs/menu/nossos-produtos/espressofordestruction.png',
             alt: 'Café Espresso for Destruction.',
             title: 'Espresso for Destruction',
             description: 'Um café poderoso e explosivo, inspirado no rock dos anos 80.',
@@ -272,7 +272,7 @@ const menuItems = {
             type: 'produto'
         },
         {
-            img: 'assets/imgs/menu/capuccino.JPG',
+            img: 'assets/imgs/menu/nossos-produtos/stairwaytobean.png',
             alt: 'Café Stairway to Bean.',
             title: 'Stairway to Bean',
             description: 'Blend premium com equilíbrio celestial entre aroma e sabor, uma verdadeira viagem sensorial.',
@@ -282,7 +282,7 @@ const menuItems = {
             type: 'produto'
         },
         {
-            img: 'assets/imgs/menu/capuccino.JPG',
+            img: 'assets/imgs/menu/nossos-produtos/borntobrew.png',
             alt: 'Café Born to Brew.',
             title: 'Born to Brew',
             description: 'Café de torra média com sabor encorpado, perfeito para quem nasceu pra viver no ritmo do rock.',
@@ -292,7 +292,7 @@ const menuItems = {
             type: 'produto'
         },
         {
-            img: 'assets/imgs/menu/capuccino.JPG',
+            img: 'assets/imgs/menu/nossos-produtos/nirvana.png',
             alt: 'Café Nirvana.',
             title: 'Nirvana',
             description: 'Um café suave e meditativo, para momentos de paz após o som alto.',
@@ -304,7 +304,7 @@ const menuItems = {
     ],
     lanches: [
         {
-        img: 'assets/imgs/menu/',
+        img: 'assets/imgs/menu/lanches/hotelcroissantia.png',
         alt: 'Croissant Hotel Croissantia.',
         title: 'Hotel Croissantia',
         description: 'Inspirado na música "Hotel California" do The Eagles, este croissant tem a massa folhada leve e amanteigada.',
@@ -312,23 +312,23 @@ const menuItems = {
         type: 'lanche'
         },
         {
-        img: 'assets/imgs/menu/',
-        alt: "Sanduíche Rock N' Roll.",
-        title: "Rock N' Roll",
+        img: 'assets/imgs/menu/lanches/cheesenroll.png',
+        alt: "Sanduíche Cheese N' Roll.",
+        title: "Cheese N' Roll",
         description: 'Inspirado na música "Rock N\' Roll" do Led Zeppelin, este é um sanduíche quente com queijo derretido, presunto e um toque de manteiga de dourada.',
         price: 'R$ 0,00',
         type: 'lanche'
         },
         {
-        img: 'assets/imgs/menu/',
+        img: 'assets/imgs/menu/lanches/borntotoast.png',
         alt: 'Sanduíche Born to Toast.',
         title: 'Born to Toast',
-        description: 'Inspirado na música "Born to Run" do Bruce Springsteen, este sanduíche é feito com pão artesanal grelhado com peito de peru, queijo minas e molho de ervas.',
+        description: 'Inspirado na música "Born to be Wild" do Steppenwolf, este sanduíche é feito com pão artesanal grelhado com peito de peru, queijo minas e molho de ervas.',
         price: 'R$ 0,00',
         type: 'lanche'
         },
         {
-        img: 'assets/imgs/menu/',
+        img: 'assets/imgs/menu/lanches/smokeonthebacon.png',
         alt: 'Sanduíche Smoke on the Bacon.',
         title: 'Smoke on the Bacon',
         description: 'Inspirado na música "Smoke on the Water" do Deep Purple, este sanduíche é feito com bacon crocante, ovo e queijo cheddar.',
@@ -336,7 +336,7 @@ const menuItems = {
         type: 'lanche'
         },
         {
-        img: 'assets/imgs/menu/',
+        img: 'assets/imgs/menu/lanches/sweetpieomine.png',
         alt: "Torta Sweet Pie O' Mine.",
         title: "Sweet Pie O' Mine.",
         description: 'Inspirada na música "Sweet Child O\' Mine" do Guns N\' Roses, esta torta de maçã com canela e cobertura açucarada.',
@@ -344,7 +344,7 @@ const menuItems = {
         type: 'lanche'
         },
         {
-        img: 'assets/imgs/menu/',
+        img: 'assets/imgs/menu/lanches/anotherbrowniebitesthedust.png',
         alt: 'Brownie Another Brownie Bites the Dust.',
         title: 'Another Brownie Bites the Dust',
         description: 'Inspirado na música "Another One Bites the Dust" do Queen, este brownie de chocolate meio amargo com toque de café.',
@@ -352,7 +352,7 @@ const menuItems = {
         type: 'lanche'
         },
         {
-        img: 'assets/imgs/menu/',
+        img: 'assets/imgs/menu/lanches/highwaytogrill.png',
         alt: 'Sanduíche Highway to Grill.',
         title: 'Highway to Grill',
         description: 'Inspirado na música "Highway to Hell" do AC/DC, este sanduíche artesanal com carne desfiada, queijo e molho barbecue.',
@@ -360,7 +360,7 @@ const menuItems = {
         type: 'lanche'
         },
         {
-        img: 'assets/imgs/menu/',
+        img: 'assets/imgs/menu/lanches/wholelattelovetoast.png',
         alt: 'Sanduíche Whole Latte Love Toast.',
         title: 'Whole Latte Love Toast',
         description: 'Inspirado na música "Whole Lotta Love" do Led Zeppelin, este sanduíche é feito com pão integral, cream cheese e geleia de frutas vermelhas.',
@@ -368,7 +368,7 @@ const menuItems = {
         type: 'lanche'
         },
         {
-        img: 'assets/imgs/menu/',
+        img: 'assets/imgs/menu/lanches/pancakeoverdrive.png',
         alt: 'Panqueca Overdrive.',
         title: 'Pancake Overdrive',
         description: 'Inspirada na música "Overdrive" do Foo Fighters, esta panqueca americana com mel, manteiga e frutas.',
@@ -376,7 +376,7 @@ const menuItems = {
         type: 'lanche'
         },
         {
-        img: 'assets/imgs/menu/',
+        img: 'assets/imgs/menu/lanches/dontstopbelievindonuts.png',
         alt: 'Donuts Don\'t Stop Believin\' Donuts.',
         title: 'Don\'t Stop Believin\' Donuts',
         description: 'Inspirados na música "Don\'t Stop Believin\'" do Journey, estes donuts artesanal, coberto com açucar e canela.',
