@@ -37,7 +37,7 @@ const menuItems = {
             img: 'assets/imgs/menu/expressos/rocklattebaby.png',
             alt: 'Café expresso com um leite Rock Latte Baby.',
             title: 'Rock Latte Baby',
-            title: 'Café com Leite',
+            title2: 'Café com Leite',
             description: 'Combinação perfeita entre expresso e leite vaporizado.',
             description2: '<b>Notas:</b> leite vaporizado e espresso cremoso. ',
             price: 'R$ 0,00',
