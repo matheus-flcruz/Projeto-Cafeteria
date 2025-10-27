@@ -22,7 +22,7 @@ O projeto consiste em criar uma **Landing Page**, implementando:
 
 ## 📸 Status Atual
 
-![Status](https://img.shields.io/badge/STATUS-EM_CONSTRUÇÃO-brightgreen?style=flat&labelColor=555555&color=2ecc71)
+![Status](https://img.shields.io/badge/STATUS-FINALIZADO-brightgreen?style=flat&labelColor=555555&color=2ecc71)
 <!-- ![Status](https://img.shields.io/badge/STATUS-FINALIZADO-brightgreen?style=flat&labelColor=555555&color=2ecc71) -->
 
 ![Demo do Projeto Rock Coffee](caminho/para/seu/screenshot.png)
